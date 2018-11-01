@@ -45,7 +45,7 @@ function create_shifter_config_dir() {
 function shifter_site_settings() {
   $api = new Shifter_API;
 
-
+  debugToConsole($api);
 
   $shifter_site_settings = array(
     // Todo: Get ENV Vars from Shifter Config
