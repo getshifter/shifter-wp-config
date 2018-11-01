@@ -50,8 +50,8 @@ function shifter_site_settings() {
   $shifter_site_settings = array(
     // Todo: Get ENV Vars from Shifter Config
     "Project Name"=> "example project name",
-    "Project ID"=> "abc-a310-11e8-8c25-123",
-    "CloudFront"=> "123.cloudfront.net"
+    "Project ID"=> $api->site_id,
+    "CloudFront"=> "example.cloudfront.net"
   );
 
   return $shifter_site_settings;
